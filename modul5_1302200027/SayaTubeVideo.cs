@@ -47,5 +47,9 @@ namespace modul5_1302200027
             }
         }
 
+        internal int GetPlaycount()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
