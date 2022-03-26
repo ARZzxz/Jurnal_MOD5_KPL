@@ -9,6 +9,31 @@ namespace modul5_1302200027
 {
     internal class SayaTubeVideo
     {
+        private string v;
+
+        public SayaTubeVideo(string v)
+        {
+            this.v = v;
+        }
+
+        static void Main(String[] args)
+        {
+            SayaTubeVideo tube = new SayaTubeVideo("tutorial...");
+            tube.PrintVideoDetails();
+            tube.IncreasePlayCount(1);
+            tube.PrintVideoDetails();
+        }
+
+        private void IncreasePlayCount(int v)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void PrintVideoDetails()
+        {
+            throw new NotImplementedException();
+        }
+
         public class SayaTubevideo
         {
             private int id;
@@ -45,6 +70,11 @@ namespace modul5_1302200027
                 Console.WriteLine(this.title);
                 Console.WriteLine(this.playCount);
             }
+        }
+
+        internal string GetTitle()
+        {
+            throw new NotImplementedException();
         }
 
         internal int GetPlaycount()
